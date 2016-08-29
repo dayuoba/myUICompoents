@@ -1,0 +1,39 @@
+:root {
+	--fontsize: 12px;
+}
+
+html
+,body {
+	margin: 0;
+	padding: 0;
+	font-size: var(--fontsize);
+}
+
+h1 {
+	font-size: 6rem;
+}
+
+h2 {
+	font-size: 5rem;
+}
+
+h3 {
+	font-size: 4rem;
+}
+
+h4 {
+	font-size: 4rem;
+}
+
+h5 {
+	font-size: 3rem;
+}
+
+h6 {
+	font-size: 2rem;
+}
+
+p {
+	font-size: 1.1rem;
+	text-indent: 2.2rem; 
+}

@@ -1,0 +1,29 @@
+{
+  "name": "ssp-ui-pub",
+  "version": "1.0.0",
+  "description": "pub side ui",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.yunpro.cn:mediapro/ssp-ui-pub.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^1.13.1"
+  },
+  "devDependencies": {
+    "cssnano": "^3.7.4",
+    "cssnext": "^1.8.4",
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^6.1.1",
+    "gulp-serve": "^1.4.0",
+    "postcss-cssnext": "^2.7.0",
+    "postcss-import": "^8.1.2",
+    "postcss-mixins": "^5.0.1",
+    "postcss-simple-vars": "^3.0.0"
+  }
+}

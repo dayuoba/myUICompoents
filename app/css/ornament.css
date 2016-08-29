@@ -1,0 +1,13 @@
+.shadow-s--text {
+	text-shadow: 2px 2px 1px #aaa;
+}
+
+.shadow-m--text {
+	text-shadow: 5px 5px 3px #aaa;
+}
+
+.shadow-l--text {
+	text-shadow: 10px 10px 5px #aaa;
+}
+
+
