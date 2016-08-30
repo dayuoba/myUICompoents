@@ -11,3 +11,14 @@
 }
 
 
+.shadow-s--box {
+	box-shadow: 0.1rem 0.1rem 0.1rem #aaa;
+}
+
+.shadow-m--box {
+	box-shadow: 0.3rem 0.3rem 0.3rem #aaa;
+}
+
+.shadow-l--box {
+	box-shadow: 0.9rem 0.9rem 0.9rem #aaa;
+}
