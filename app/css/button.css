@@ -7,6 +7,7 @@
 
 	--button: {
 		display: block;
+		user-select: none;
 		width: var(--button-width);
 		height: var(--button-height);
 		border-radius: calc(var(--button-width) / 10);
@@ -27,6 +28,10 @@ a.btn {
 	@apply --button;
 	text-decoration: none;
 	color: black;
+	&:hover {
+		border: var(--border) solid #aaa;
+		color: #aaa;
+	}
 }
 
 /*button with colors*/
