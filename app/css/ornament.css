@@ -1,24 +1,39 @@
+:root {
+	--basic-shadow_size: 0.1rem;
+	--medium-offset: 3;
+	--large-offset: 9;
+	--shadow-color: color(black l(10%));
+}
+
+@define-mixin textShadow $offset {
+	text-shadow: calc(var(--basic-shadow_size) * $offset) calc(var(--basic-shadow_size) * $offset) calc(var(--basic-shadow_size) * $offset) var(--shadow-color);
+}
+
+@define-mixin boxShadow $offset {
+	box-shadow: calc(var(--basic-shadow_size) * $offset) calc(var(--basic-shadow_size) * $offset) calc(var(--basic-shadow_size) * $offset) var(--shadow-color);
+}
+
+
 .shadow-s--text {
-	text-shadow: 2px 2px 1px #aaa;
+    @mixin textShadow 1;
 }
 
 .shadow-m--text {
-	text-shadow: 5px 5px 3px #aaa;
+    @mixin textShadow var(--medium-offset);
 }
 
 .shadow-l--text {
-	text-shadow: 10px 10px 5px #aaa;
+    @mixin textShadow var(--large-offset);
 }
 
-
 .shadow-s--box {
-	box-shadow: 0.1rem 0.1rem 0.1rem #aaa;
+    @mixin boxShadow 1;
 }
 
 .shadow-m--box {
-	box-shadow: 0.3rem 0.3rem 0.3rem #aaa;
+    @mixin boxShadow var(--medium-offset);
 }
 
 .shadow-l--box {
-	box-shadow: 0.9rem 0.9rem 0.9rem #aaa;
+    @mixin boxShadow var(--large-offset);
 }
