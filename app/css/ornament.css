@@ -1,7 +1,7 @@
 :root {
 	--basic-shadow_size: 0.1rem;
 	--medium-offset: 3;
-	--large-offset: 9;
+	--large-offset: 6;
 	--shadow-color: color(black l(10%));
 }
 

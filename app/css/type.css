@@ -1,12 +1,20 @@
 :root {
 	--fontsize: 12px;
 }
-
+@font-face {
+	font-family: 'm+1m';
+	src: url('/mplus-1m-light.ttf');
+}
 html
 ,body {
 	margin: 0;
 	padding: 0;
 	font-size: var(--fontsize);
+	font-family: 'm+1m', menlo;
+}
+
+html * {
+	box-sizing: border-box;
 }
 
 h1 {
