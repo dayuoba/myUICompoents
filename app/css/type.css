@@ -1,16 +1,17 @@
 :root {
 	--fontsize: 12px;
 }
-@font-face {
-	font-family: 'm+1m';
-	src: url('/mplus-1m-light.ttf');
-}
+/*@font-face {*/
+	/*font-family: 'm+1m';*/
+	/*src: url('/mplus-1m-light.ttf');*/
+/*}*/
+/*优先mac中文字 体验 windows平台用微软雅黑*/
 html
 ,body {
 	margin: 0;
 	padding: 0;
 	font-size: var(--fontsize);
-	font-family: 'm+1m', menlo;
+	font-family: 'HanHei SC', 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'Arial','Microsoft YaHei', sans-serif;
 }
 
 html * {
