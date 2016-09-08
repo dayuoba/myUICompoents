@@ -7,16 +7,16 @@ const pkg = require('./package')
 const paths = {
   css: {
     entry: [
-      './app/css/app.css'
+      './src/css/app.css'
     ],
-    all: './app/css/*.css'
+    all: './src/css/*.css'
   },
 }
 
 gulp.task('serve', serve({
   host: '127.0.0.1',
   port: 4001,
-  root: './app'
+  root: './demo'
 }))
 
 gulp.task('css', () => {
@@ -33,7 +33,7 @@ gulp.task('css', () => {
       })
     ]))
     .pipe(gulp.dest('./dist'))
-    .pipe(gulp.dest('./app/'))
+    .pipe(gulp.dest('./demo/'))
 })
 
 
