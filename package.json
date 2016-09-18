@@ -1,6 +1,6 @@
 {
   "name": "gyui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "pub side ui",
   "main": "server.js",
   "scripts": {
