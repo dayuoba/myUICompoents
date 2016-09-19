@@ -1,6 +1,5 @@
 :root {
 	--col-padding: 0 0.5rem;
-	--col-margin: 0 0.1rem;
 }
 
 .row {
@@ -23,7 +22,6 @@
 	float: left;
 	width: 100%;
 	padding: var(--col-padding);
-	margin: var(--col-margin);
 }
 
 /*cells*/
