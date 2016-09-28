@@ -1,56 +1,56 @@
 :root {
-	--pink: #ff2e88;
-	--blue: #1e88e5;
-	--border: 0.15rem;
-	--button-width: 5rem;
-	--button-height: 2.5rem;
+  --pink: #ff2e88;
+  --blue: #1e88e5;
+  --border: 0.15rem;
+  --button-width: 5rem;
+  --button-height: 2.5rem;
 
-	--button: {
-		display: block;
-		user-select: none;
-		width: var(--button-width);
-		height: var(--button-height);
-		border-radius: calc(var(--button-width) / 10);
-		font-size: 1rem;
-		text-align: center;
-		line-height: var(--button-height);
-		border: var(--border) solid #eee;
-		margin: 0.2rem;
-		cursor: pointer;
-	}
+  --button: {
+    display: block;
+    user-select: none;
+    width: var(--button-width);
+    height: var(--button-height);
+    border-radius: calc(var(--button-width) / 10);
+    font-size: 1rem;
+    text-align: center;
+    line-height: var(--button-height);
+    border: var(--border) solid #eee;
+    margin: 0.2rem;
+    cursor: pointer;
+  }
 }
 
 .btn {
-	@apply --button;
+  @apply --button;
 }
 
 a.btn {
-	@apply --button;
-	text-decoration: none;
-	color: black;
-	&:hover {
-		border: var(--border) solid #aaa;
-		color: #aaa;
-	}
+  @apply --button;
+  text-decoration: none;
+  color: black;
+  &:hover {
+    border: var(--border) solid #aaa;
+    color: #aaa;
+  }
 }
 
 /*button with colors*/
 .btn-info {
-	 color: var(--blue);
-	 border: var(--blue) var(--border) solid;
+   color: var(--blue);
+   border: var(--blue) var(--border) solid;
 }
 
 .btn-primary {
-	 color: var(--pink);
-	 border: var(--pink) var(--border) solid;
+   color: var(--pink);
+   border: var(--pink) var(--border) solid;
 }
 
 a.btn-info {
-	 color: var(--blue);
-	 border: var(--blue) var(--border) solid;
+   color: var(--blue);
+   border: var(--blue) var(--border) solid;
 }
 
 a.btn-primary {
-	 color: var(--pink);
-	 border: var(--pink) var(--border) solid;
+   color: var(--pink);
+   border: var(--pink) var(--border) solid;
 }

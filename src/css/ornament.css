@@ -1,16 +1,16 @@
 :root {
-	--basic-shadow_size: 0.1rem;
-	--medium-offset: 3;
-	--large-offset: 6;
-	--shadow-color: color(black l(10%));
+  --basic-shadow_size: 0.1rem;
+  --medium-offset: 3;
+  --large-offset: 6;
+  --shadow-color: color(black l(10%));
 }
 
 @define-mixin textShadow $offset {
-	text-shadow: calc(var(--basic-shadow_size) * $offset) calc(var(--basic-shadow_size) * $offset) calc(var(--basic-shadow_size) * $offset) var(--shadow-color);
+  text-shadow: calc(var(--basic-shadow_size) * $offset) calc(var(--basic-shadow_size) * $offset) calc(var(--basic-shadow_size) * $offset) var(--shadow-color);
 }
 
 @define-mixin boxShadow $offset {
-	box-shadow: calc(var(--basic-shadow_size) * $offset) calc(var(--basic-shadow_size) * $offset) calc(var(--basic-shadow_size) * $offset) var(--shadow-color);
+  box-shadow: calc(var(--basic-shadow_size) * $offset) calc(var(--basic-shadow_size) * $offset) calc(var(--basic-shadow_size) * $offset) var(--shadow-color);
 }
 
 
